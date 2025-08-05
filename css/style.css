@@ -8,6 +8,7 @@
     --dark-gray: rgb(45, 46, 46);
     --pink: rgb(245, 119, 245);
     --header-blue: rgb(42, 94, 232);
+    --black: rgb(0, 0, 0);
 }
 
 /* RESET */
@@ -59,9 +60,25 @@ ul {
     font-size: 1rem;
 }
 
+.btn-2rem {
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1rem;
+}
+
 /* Utilities */
 .row-reverse {
     flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+
 }
 
 .border {
@@ -119,6 +136,10 @@ ul {
     background-color: var(--white)
 }
 
+.bg-black {
+    background-color: var(--black)
+}
+
 .bg-green-grass {
     background-color: var(--green-grass)
 }
@@ -174,7 +195,8 @@ ul {
 
 /* HERO */
 .hero {
-    background-color: darkblue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .hero-content {
