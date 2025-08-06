@@ -125,12 +125,16 @@ ul {
 /* CONTENT BLOCK */
 .content-block-img {
     width: 60%;
-    background-color: dodgerblue;
+
+    /* DEBUG */
+    /* background-color: dodgerblue; */
 }
 
 .content-block-txt {
     width: 40%;
-    background-color: pink;
+    padding: 30px;
+    /* DEBUG */
+    /* background-color: pink; */
 }
 
 /* FOOTER */
@@ -213,6 +217,11 @@ ul {
     padding-right: 20px;
 }
 
+.py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 .bg-light-azure {
     background-color: var(--light-azure);
 }
@@ -255,4 +264,12 @@ ul {
 
 .txt-black {
     color: rgb(0, 0, 0);
+}
+
+.txt-size-s {
+    font-size: 0.8rem;
+}
+
+.txt-size-xl {
+    font-size: 1.8rem;
 }
