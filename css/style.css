@@ -55,7 +55,6 @@ ul {
     /* border: 2px solid black; */
 }
 
-/* DEBUG EXTRA */
 .hero-container>* {
 
     text-align: center;
@@ -63,10 +62,6 @@ ul {
 
     /* DEBUG */
     /* border: 2px solid purple; */
-}
-
-.flex {
-    display: flex;
 }
 
 .btn-1rem {
@@ -130,7 +125,7 @@ ul {
     /* background-color: dodgerblue; */
 }
 
-.content-block-txt {
+.content-block-text {
     width: 40%;
     padding: 30px;
     /* DEBUG */
@@ -165,6 +160,10 @@ ul {
 }
 
 /* Utilities */
+.flex {
+    display: flex;
+}
+
 .row-reverse {
     flex-direction: row-reverse;
 }
@@ -182,9 +181,39 @@ ul {
     border: 1px dashed black;
 }
 
+.my-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .my-20 {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.mx-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.my-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .py-5 {
@@ -220,6 +249,12 @@ ul {
 .py-40 {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.bg-img-stars {
+    background-image: url(../img/stars.svg);
+    /* background-size: cover; */
+    /* background-position: center; */
 }
 
 .bg-light-azure {
@@ -258,18 +293,22 @@ ul {
     background-color: var(--header-blue);
 }
 
-.txt-white {
+.text-white {
     color: rgb(255, 255, 255);
 }
 
-.txt-black {
+.text-black {
     color: rgb(0, 0, 0);
 }
 
-.txt-size-s {
+.text-size-s {
     font-size: 0.8rem;
 }
 
-.txt-size-xl {
+.text-size-xl {
     font-size: 1.8rem;
+}
+
+.text-align-center {
+    text-align: center;
 }
