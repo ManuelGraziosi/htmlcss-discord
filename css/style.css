@@ -64,20 +64,19 @@ ul {
     /* border: 2px solid purple; */
 }
 
-.btn-1rem {
-    border-radius: 20px;
-    padding: 7px 14px;
-    border: none;
-    font-size: 0.9rem;
-}
-
-.btn-2rem {
+.btn-large {
+    padding: 14px 21px;
+    /* display: inline-block; */
     border-radius: 25px;
-    padding: 12px 16px;
-    border: none;
-    /* font-size: 1.2rem; */
+    font-size: large;
 }
 
+.btn-small {
+    padding: 7px 14px;
+    font-size: small;
+    /* display: inline-block; */
+    border-radius: 15px;
+}
 
 /* HEADER */
 
