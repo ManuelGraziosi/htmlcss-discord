@@ -324,6 +324,10 @@ ul {
     color: var(--discord-blue);
 }
 
+.text-light-gray {
+    color: var(--light-gray);
+}
+
 .text-size-s {
     font-size: 0.8rem;
 }
@@ -334,4 +338,14 @@ ul {
 
 .text-align-center {
     text-align: center;
+}
+
+.wave {
+    width: 100%;
+}
+
+.wave2 {
+    background-image: url(../img/wave.svg);
+    height: 80px;
+    color
 }
