@@ -9,6 +9,7 @@
     --pink: rgb(245, 119, 245);
     --header-blue: rgb(42, 94, 232);
     --black: rgb(0, 0, 0);
+    --button-blue: rgb(114, 137, 218);
 }
 
 /* RESET */
@@ -252,8 +253,10 @@ ul {
 
 .bg-img-stars {
     background-image: url(../img/stars.svg);
-    /* background-size: cover; */
-    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-position-y: -10px; */
+    /* background-position-x: 50%; */
+    background-position: center;
 }
 
 .bg-light-azure {
@@ -290,6 +293,10 @@ ul {
 
 .bg-header-blue {
     background-color: var(--header-blue);
+}
+
+.bg-button-blue {
+    background-color: var(--button-blue);
 }
 
 .text-white {
