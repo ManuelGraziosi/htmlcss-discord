@@ -344,8 +344,32 @@ ul {
     width: 100%;
 }
 
-.wave2 {
-    background-image: url(../img/wave.svg);
+.wave-top {
+    background-color: var(--light-gray);
+    /* colore dell'onda */
+    -webkit-mask-image: url(../img/wave.svg);
+    -webkit-mask-repeat: repeat-x;
+    -webkit-mask-size: cover;
+
+    mask-image: url(../img/wave.svg);
+    mask-repeat: repeat-x;
+    mask-size: cover;
+
     height: 80px;
-    color
+}
+
+.wave-bottom {
+    background-color: var(--light-gray);
+    /* colore dell'onda */
+    -webkit-mask-image: url(../img/wave.svg);
+    -webkit-mask-repeat: repeat-x;
+    -webkit-mask-size: cover;
+
+    mask-image: url(../img/wave.svg);
+    mask-repeat: repeat-x;
+    mask-size: cover;
+
+    transform: scaleY(-1);
+    /* specchio verticale */
+    height: 80px;
 }
